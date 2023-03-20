@@ -55,7 +55,8 @@ if input1 == "layer4":
 ║ CHAR.                                                 ║                   
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
-layer4input = input("""
+    
+    layer4input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
 if layer4input == "MINECRAFT":
