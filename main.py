@@ -300,20 +300,3 @@ if layer7input == "GSB":
     url = input(f"url ══ ")
     timeudp = input(f"timeudp ══ ")
     os.system("cd files/dont_look && python3 start.py GSB " + url + " 0 " + " 1000 " + " no_proxy.txt " + " 61 " + timeudp)
-
-#Tools
-
-if input1 == "tools":
-       print("""  
-╔═══════════════════════════════════════════════════════╗
-║                                                       ║
-║                       Tools:                          ║ 
-║                        PING                           ║                                  
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝""")
-toolsinput = input("""
-╔══════[root@watermelon]
-╚═══> """)
-if toolsinput == "PING":
-    pinginput = input(f"ip ══ ")
-    os.system(f"ping " + pinginput)
