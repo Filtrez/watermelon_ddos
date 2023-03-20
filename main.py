@@ -3,14 +3,14 @@
 #smd
 import requests
 import socket
-#import socks
+
 import time
-#import random
-#import threading
+
+
 import sys
 import ssl
 import datetime
-import paramiko
+
 import os
 from os import system
 system("$ watermelon | [2 bots]")
