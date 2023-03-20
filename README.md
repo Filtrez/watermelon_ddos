@@ -2,4 +2,4 @@
 
 Ddos Program.
 
-cr: mhddos
+cr: mhddos: https://github.com/MatrixTM/MHDDoS
