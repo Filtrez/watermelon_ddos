@@ -56,7 +56,7 @@ if input1 == "layer4":
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
     
-    layer4input = input("""
+layer4input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
 if layer4input == "MINECRAFT":
@@ -178,7 +178,7 @@ if input1 == "layer7":
 ║  OVH, AVB, POST, XMLRPC, GET, CFBUAM, BOT, STRESS, GSB║                                            
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
-       layer7input = input("""
+layer7input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
 
