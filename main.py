@@ -79,7 +79,7 @@ if layer4input == "UDP":
     #time.sleep(5)
     #_stdin.close()
     #client.close()
-    os.system("cd files/dont_look && python3 start.py UDP" + ipudp + ":" + portudp + " 900 " + timeudp)
+    os.system("cd files/dont_look && python3 start.py UDP " + ipudp + ":" + portudp + " 900 " + timeudp)
 
 if layer4input == "TCP":
     iptcp = input(f"ip ══ ")
