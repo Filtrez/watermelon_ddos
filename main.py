@@ -178,7 +178,7 @@ if input1 == "layer7":
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
       
-       layer7input = input("""
+layer7input = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
 
