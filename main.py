@@ -100,4 +100,4 @@ if layer4input == "TCP":
     #time.sleep(5)
     #_stdin.close()
     #client.close()
-    os.system("cd files/dont_look && python3 start.py UDP" + iptcp + ":" + porttcp + " 900 " + timetcp)
+    os.system("cd files/dont_look && python3 start.py TCP" + iptcp + ":" + porttcp + " 900 " + timetcp)
