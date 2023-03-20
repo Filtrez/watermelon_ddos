@@ -68,13 +68,13 @@ if layer4input == "UDP":
     ipudp = input(f"ip ══ ")
     portudp = input(f"port ══ ")
     timeudp = input(f"time ══ ")
-    os.system("cd files/dont_look && python3 start.py UDP " + ipudp + ":" + portudp + " 900 " + timeudp)
+    os.system("cd files/dont_look && python3 start.py UDP " + ipudp + ":" + portudp + " 1000 " + timeudp)
 
 if layer4input == "TCP":
     iptcp = input(f"ip ══ ")
     porttcp = input(f"port ══ ")
     timetcp = input(f"time ══ ")
-    os.system("cd files/dont_look && python3 start.py TCP " + iptcp + ":" + porttcp + " 900 " + timetcp)
+    os.system("cd files/dont_look && python3 start.py TCP " + iptcp + ":" + porttcp + " 1000 " + timetcp)
 
 #layer7
 if input1 == "layer7":
