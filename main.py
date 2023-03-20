@@ -50,12 +50,15 @@ version 1.0                           cod3d by wat3rmelon
 input1 = input("""
 ╔══════[root@watermelon]
 ╚═══> """)
-
+#layer4
 if input1 == "layer4":
     print("""  
 ╔═══════════════════════════════════════════════════════╗
 ║                                                       ║
-║                   methods: UDP, TCP                   ║                   
+║                       Methods:                        ║
+║ UDP, TCP, SYN, CPS, ICPM, CONNECTION, VSE, TS3, FIVEM,║
+║ MEM, NTP, MCBOT, MINECRAFT, MCPE, DNS, CHAR, CLDAP,   ║
+║ ARD, RDP.                                             ║                   
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝""")
 layer4input = input("""
@@ -101,3 +104,19 @@ if layer4input == "TCP":
     #_stdin.close()
     #client.close()
     os.system("cd files/dont_look && python3 start.py TCP " + iptcp + ":" + porttcp + " 900 " + timetcp)
+
+#layer7
+if input1 == "layer7":
+       print("""  
+╔═══════════════════════════════════════════════════════╗
+║                                                       ║
+║                       Methods:                        ║ 
+║  Get, Post, Ovh, Rhex, Stomp, Stress, Dyn,            ║ 
+║  Downloader, Slow, Head, Null, Cookie, Pps, Even,     ║ 
+║  Gsb, Ddb, Avb, Bot, Apache, Xmlrpc, Cfb, Cfbuam,     ║
+║  Bypass, Bomb, Killer, Tor.                           ║                   
+║                                                       ║
+╚═══════════════════════════════════════════════════════╝""")
+layer7input = input("""
+╔══════[root@watermelon]
+╚═══> """)
